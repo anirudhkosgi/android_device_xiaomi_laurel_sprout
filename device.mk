@@ -487,3 +487,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/qcom/display \
     hardware/qcom/media
+
+PRODUCT_PACKAGES += \
+    GalleryGo2
