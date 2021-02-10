@@ -525,3 +525,8 @@ PRODUCT_COPY_FILES += \
 #Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/lahaina-yupikqrd-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/lahaina-yupikqrd-snd-card_Button_Jack.kl
+
+# Atrace
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service
+
