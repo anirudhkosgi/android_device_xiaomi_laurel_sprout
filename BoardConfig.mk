@@ -111,6 +111,9 @@ TARGET_USES_DRM_PP := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Gestures
+TARGET_TAP_TO_WAKE_EVENT_NODE  := "/dev/input/event2"
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := cherokee
@@ -170,10 +173,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # A/B
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
-
-# Power
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
-TARGET_USES_INTERACTION_BOOST := true
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true

@@ -479,3 +479,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     GalleryGo2
+
+# Overlays
+PRODUCT_PACKAGES += \
+    AOSPALaurelFrameworks
