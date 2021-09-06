@@ -688,7 +688,7 @@
     <bool name="config_needCustomFODView">true</bool>
 
     <!-- Default fod pressed color -->
-    <integer name="config_fod_pressed_color">5</integer>
+    <integer name="config_fod_pressed_color">1</integer>
     
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
