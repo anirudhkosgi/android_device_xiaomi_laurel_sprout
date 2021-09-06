@@ -41,8 +41,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
 
 PRODUCT_PACKAGES += \
-    RemovePackages \
-    GalleryGo2
+    RemovePackages
+#    GalleryGo2
 #    FirefoxLite \
 #    GCamGo
     
