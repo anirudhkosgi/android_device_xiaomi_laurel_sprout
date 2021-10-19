@@ -433,6 +433,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 
+# Netd
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
+
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.2.vendor \
