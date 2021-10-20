@@ -454,6 +454,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.3.vendor \
     android.hardware.radio@1.4.vendor \
     android.hardware.radio@1.5.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
     rild \
     librmnetctl \
     libxml2 \
