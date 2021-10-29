@@ -339,6 +339,11 @@ PRODUCT_COPY_FILES += \
 # Offline charging images
 include $(LOCAL_PATH)/rootdir/charger/charger.mk
 
+# Offline charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # OMX
 PRODUCT_PACKAGES += \
     libavservices_minijail \
