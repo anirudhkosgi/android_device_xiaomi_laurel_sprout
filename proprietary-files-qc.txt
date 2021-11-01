@@ -327,12 +327,11 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
-# Connection Security
--vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk;PRESIGNED
-vendor/bin/ssgqmigd
-vendor/bin/ssgtzd
-vendor/lib/libminksocket.so
-vendor/lib64/libminksocket.so
+# Connection Security - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/ssgqmigd|5769f2aef8fdf48f55b01e3d7d3d1aecb860d7e1
+vendor/bin/ssgtzd|70da7de27c727c524bdb27743fbe4bb56f794ea7
+vendor/lib/libminksocket.so|3dded19f35f4a9468a9e7a0672ec2068c7560ba0
+vendor/lib64/libminksocket.so|103f45603bef0d1fbf52ccdf8458dd31cabe3945
 
 # DPM - LA.UM.9.11.r1-04500-NICOBAR.0
 framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
