@@ -1143,10 +1143,10 @@ vendor/lib64/libtime_genoff.so|72cbb6847c67602904cf435d3878045a186c7ef5
 -vendor/app/TimeService/TimeService.apk|8ac5379a15b1051300b429f22c2dfb1620a8c362
 
 
-# Trusted User Interface
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+# Trusted User Interface - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|fc6047f4390979bd633f60bf74e637f3b44cadc8
 
 # WiFi
 vendor/bin/cnss-daemon
