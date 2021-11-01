@@ -1055,15 +1055,15 @@ vendor/lib64/libscveObjectTracker_stub.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
-# SMC Invoke
-vendor/etc/ssg/ta_config.json
-vendor/etc/ssg/tz_whitelist.json
-vendor/lib/libminkdescriptor.so
-vendor/lib/libnative-api.so
-vendor/lib/libqcbor.so
-vendor/lib64/libminkdescriptor.so
-vendor/lib64/libnative-api.so
-vendor/lib64/libqcbor.so
+# SMC Invoke - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/etc/ssg/ta_config.json|e18554b038da3737b7352d1271e5fde9c789c9df
+vendor/etc/ssg/tz_whitelist.json|c0dc4f4cfee20db5993eb5142e362cba7dfaecd6
+vendor/lib/libminkdescriptor.so|46c10d7c064676d19ecaa7e4f939696fe3c3bc48
+vendor/lib/libnative-api.so|bf9644d12ee4caa57ec99abf7d6801f842dd9d31
+vendor/lib/libqcbor.so|e6907a4f9da62793c7e821fc5388c76c48f8774f
+vendor/lib64/libminkdescriptor.so|b27acc98f6cb34502e44a2779bbc1a7dfd0793fb
+vendor/lib64/libnative-api.so|fd6cf92e0347452288758b6ecc25b449535ecb61
+vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
 
 # SecureMSM - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/KmInstallKeybox|a24409ca27e5a31551a98dcb60e944e8e82b88ad
