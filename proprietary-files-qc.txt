@@ -1135,11 +1135,13 @@ vendor/bin/thermal-engine
 -vendor/lib64/libthermalclient.so
 -vendor/lib/libthermalclient.so
 
-# Time services
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/etc/init/init.time_daemon.rc
-vendor/lib64/libtime_genoff.so
+# Time Services - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/time_daemon|8e1a7f986859684240f226ffb2d94ea744966a2a
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+vendor/lib/libtime_genoff.so|9d0ed7481f38fa59b02e9d62a29cd1dd64ca06b6
+vendor/lib64/libtime_genoff.so|72cbb6847c67602904cf435d3878045a186c7ef5
+-vendor/app/TimeService/TimeService.apk|8ac5379a15b1051300b429f22c2dfb1620a8c362
+
 
 # Trusted User Interface
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
