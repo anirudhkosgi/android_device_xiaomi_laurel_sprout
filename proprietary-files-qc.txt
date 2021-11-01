@@ -8,46 +8,47 @@ vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
 
-# ADSPRPC
-vendor/bin/adsprpcd
-vendor/bin/cdsprpcd
-vendor/bin/dspservice
-vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc
-vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
-vendor/lib/libadsprpc.so
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libcdsprpc.so
-vendor/lib/libcdsp_default_listener.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libsdsprpc.so
-vendor/lib/libssc_default_listener.so
-vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib/vendor.qti.hardware.dsp@1.0.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libloadalgo_stub.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
-vendor/lib64/libssc_default_listener.so
-vendor/lib64/libsysmon_cdsp_skel.so
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+# ADSPRPC - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
+vendor/bin/cdsprpcd|ea126ed2f1b11622547239f331b8013320c59ad2
+vendor/bin/dspservice|d4e262b312a40ca275a6e6c9eefdab2d81da2f21
+vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|77f5aaf6d773ee545e39bc5fdc99c65434c05379
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
+vendor/lib/libadsprpc.so|842068c2341c8e888f84fb90e97598fd2e060b39
+vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
+vendor/lib/libcdsprpc.so|50da6b22e74ee06bd1abfd8ee2649b9fd0266ca7
+vendor/lib/libmdsprpc.so|713b57dea758370705dd2d681e74c07fe1d1c73c
+vendor/lib/libsdsprpc.so|e6e4bf730d265a2726be485f6b10762bc885226c
+vendor/lib/libssc_default_listener.so|e3a7b4fe1b4e31afb6fffcf8fd2babf60db1e894
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|f902e821229cd1fff50ebfba99b0a068cbf74a56
+vendor/lib64/libadsp_default_listener.so|3ebcf635d6cdc447b8ecd40ea76bda39bf82c308
+vendor/lib64/libadsprpc.so|53546d59e9e09c8e1b1862cd64ce0a0f80412ff2
+vendor/lib64/libcdsp_default_listener.so|81e5f4737bfb7e2f0a906183b2a8357a5053ee5c
+vendor/lib64/libcdsprpc.so|e7629a092ba6954c08305a4c8cc08d95313cc2aa
+vendor/lib64/libloadalgo_stub.so|f6f07b4e4de42b5c1314e71ea27155633475861b
+vendor/lib64/libmdsprpc.so|cc13aacb5d2fa8117ed47f4c49664f9351636616
+vendor/lib64/libsdsprpc.so|e2f6b6e92b3b0dd76a6f39f682159e1dcba54f4b
+vendor/lib64/libssc_default_listener.so|d1ca27c768a8746fc92ff5d0ed61699015853d7c
+vendor/lib64/libsysmon_cdsp_skel.so|e5ba4d173b0e09d736b16474ed2f57874cb91916
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|410b328b24ebd9ec5de4d293f592a933a5a58a00
 
-# ADSP Modules
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
-vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
+# ADSP Modules - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
+vendor/lib/rfsa/adsp/libdspCV_skel.so|c6034c389845a94a4054dd0fe9a0381adbf086e5
+vendor/lib/rfsa/adsp/libfastcvadsp.so|5c86de2533d60534ce5b07e6be13bcf988e4b03b
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|f3f79fd19ade4ec0947fd901d216e9c39ef5e276
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|79188b620f3fc48421267990d6dd20d738d6ddd4
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|44ee517f73908376a226f02a1ecd7ab22e5ae6ca
+vendor/lib/rfsa/adsp/libscveT2T_skel.so|e7b555579924337dc72badc71bdd49c13664454b
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
+
+# ADSP VC1 DEC - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/lib/rfsa/adsp/libVC1Dec.so|732ede3ede9e6e1b09c439156f62a07d8fa0ee3e
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|eff059c5a29a44d205bd60ad24aecc46416e939e
 
 # Adreno - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/lib/egl/eglSubDriverAndroid.so|76aa917155178a0d7cad84a6daa97a2896199fff
