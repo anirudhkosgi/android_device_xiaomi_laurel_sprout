@@ -1065,51 +1065,51 @@ vendor/lib64/libminkdescriptor.so
 vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
-# SecureMSM
-vendor/bin/KmInstallKeybox
-vendor/bin/StoreKeybox
-vendor/bin/hdcp1prov
-vendor/bin/hdcp2p2prov
-vendor/lib/libbase64.so
-vendor/lib/libcpion.so
-vendor/lib/libcppf.so
-vendor/lib/libhdcpsrm.so
-vendor/lib/libhdcp1prov.so
-vendor/lib/libhdcp2p2prov.so
-vendor/lib/libpvr.so
-vendor/lib/librmp.so
-vendor/lib/libqisl.so
-vendor/lib/libtrustedapploader.so
-vendor/lib/libtzdrmgenprov.so
-vendor/lib64/libbase64.so
-vendor/lib64/libcpion.so
-vendor/lib64/libhdcpsrm.so
-vendor/lib64/libhdcp1prov.so
-vendor/lib64/libhdcp2p2prov.so
-vendor/lib64/libpvr.so
-vendor/lib64/librmp.so
-vendor/lib64/libqisl.so
-vendor/lib64/libtrustedapploader.so
-vendor/lib64/libtzdrmgenprov.so
+# SecureMSM - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/KmInstallKeybox|a24409ca27e5a31551a98dcb60e944e8e82b88ad
+vendor/bin/StoreKeybox|379a4b71f02a2921b552d49d589682133b598312
+vendor/bin/hdcp1prov|d7e7d56866a657ee6a90ebea0529bd54d13df4f7
+vendor/bin/hdcp2p2prov|f02c04b8b90ed70f9de927465ebe7f2db9bf1b4f
+vendor/lib/libbase64.so|59094e91c2ec510b2a6fb08bd2acf4647f7fea48
+vendor/lib/libcpion.so|a5559c1106113e12ed43d582984477ccf6759b9a
+vendor/lib/libcppf.so|b168fd0fca55204dc623fcfeefaa839c212329f1
+vendor/lib/libhdcp1prov.so|6ff7f94b500222d5c4bfe370a4e45a78dd438987
+vendor/lib/libhdcp2p2prov.so|1a7253e8242fb81c7028cf9684d274d1d62bf8f7
+vendor/lib/libhdcpsrm.so|a0ac1db2bf56a61cfd398cbab5b8293938fc0164
+vendor/lib/libpvr.so|69d5f10b46a963d5f81021b581eeb183de409017
+vendor/lib/libqisl.so|a7f25c963b14d50ef8669b32d484ccedf139d02c
+vendor/lib/librmp.so|f6cb9a17bbcfce4875cdd0fce94aad9af5a14ab4
+vendor/lib/libtrustedapploader.so|3d917acae6426f26d38e6aacd21e55b67b42e4d4
+vendor/lib/libtzdrmgenprov.so|4cd4aadf2c55b26f85ea0e13325e280c42c653c8
+vendor/lib64/libbase64.so|69ea4a86fbc5a26ab3ec46b3bcb6ab65b75ce07c
+vendor/lib64/libcpion.so|3547ee6e05d1506fe1467762aad640a5866d6075
+vendor/lib64/libhdcp1prov.so|6057c2ce317c945b6aa04a15da16e5e8881ffd1f
+vendor/lib64/libhdcp2p2prov.so|f1f20ff6b082faafa257862f079df05928e1d44d
+vendor/lib64/libhdcpsrm.so|ac9c8dad21fb467898d21cf5e159ef968809d909
+vendor/lib64/libpvr.so|9a510d5e99c42e119759c37b48a5d244c2f8e51c
+vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
+vendor/lib64/librmp.so|616f942edc7f69876bac486782e366cc34276b3f
+vendor/lib64/libtrustedapploader.so|e9ebd0130381cf60219d4c511a8e6908684cb7ab
+vendor/lib64/libtzdrmgenprov.so|475ca0ae1dccd05af58a4cfdf531908c3d8d5f50
 
-# SecureMSM (SECDISP)
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-vendor/bin/secure_ui_sample_client
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/libSecureUILib.so
-vendor/lib/libStDrvInt.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libsecureui.so
-vendor/lib/libsi.so
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsi.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+# SecureMSM (SECDISP) - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
+vendor/bin/secure_ui_sample_client|bb7952a6b0f52006f807e0448eda2645b0067bd5
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib/libSecureUILib.so|409142199b8f85b41fb8d8d6878b1e1a079a1dce
+vendor/lib/libStDrvInt.so|462a243190fd25574ad6a442a5ca7cdd335e35db
+vendor/lib/libsecureui.so|8598a4a413519cd05d5cad29030751ac966b35e6
+vendor/lib/libsecureui_svcsock.so|5865abafa021ab9bd544c92028f57abc1c5ca985
+vendor/lib/libsi.so|083d3feeda09b6ed2fd5f84f1f03872e4c4bc27b
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|5acf77ad4e7e0dce523079fe7757a9ed66fd5033
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|16dc51cd62ce73adebdff600e764da481504962f
+vendor/lib64/libSecureUILib.so|838ae79979b398c70e3341ea1defcd03241c005e
+vendor/lib64/libStDrvInt.so|22cfa46ae9bfbeb4202fde9d4e4d8f47579e9f2f
+vendor/lib64/libsecureui.so|80650ed93443df97db41b91ccad55176350f6cfd
+vendor/lib64/libsecureui_svcsock.so|0c2a2708a9c4bd0913134c171cb9a47a13e32c9c
+vendor/lib64/libsi.so|ed75ce7d2408e0b0c268b281c63f578713a42fe5
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|f8e99ee9625ae0e8c46be3de05626867dd638043
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|fc6047f4390979bd633f60bf74e637f3b44cadc8
 
 # Sensors
 vendor/etc/init/init.vendor.sensors.rc
