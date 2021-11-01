@@ -701,9 +701,9 @@ vendor/lib64/libkeymasterutils.so|f484c03fa81bc76ea7a404bc885324c7202f3470
 vendor/lib64/libqtikeymaster4.so|97706b0fa7f57198c4445fb70d7b8116d9741ad7
 -vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml|478d11fc12dd7c6a85b543cf163bec217aea3148
 
-# Latency
-vendor/lib/vendor.qti.hardware.data.latency@1.0.so
-vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
+# Latency - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/lib/vendor.qti.hardware.data.latency@1.0.so|ee04ade363820474bdca9d27f39347b1dd5ab1b7
+vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|7c04a0c431fcfb82ea5f27447c8c8723e10b56a7
 
 # Listen
 vendor/lib/libadpcmdec.so
