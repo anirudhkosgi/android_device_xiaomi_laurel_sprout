@@ -473,19 +473,19 @@ vendor/lib/libfastcvdsp_stub.so
 vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
 
-# FM
-system_ext/bin/dun-server
-system_ext/lib/com.qualcomm.qti.ant@1.0.so
-system_ext/lib/fm_helium.so
-system_ext/lib/libfm-hci.so
-system_ext/lib/vendor.qti.hardware.fm@1.0.so
-system_ext/lib64/com.qualcomm.qti.ant@1.0.so
-system_ext/lib64/fm_helium.so
-system_ext/lib64/libfm-hci.so
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
-vendor/bin/fm_qsoc_patches
-vendor/etc/init/init.qti.fm.rc
-vendor/etc/init.qti.fm.sh
+# FM - LA.UM.9.11.r1-04500-NICOBAR.0
+system_ext/bin/dun-server|093db310ec9583c3b0a6fa35f0292a0a0e7bb0a8
+system_ext/lib/com.qualcomm.qti.ant@1.0.so|ff22929c0507cef249c34a172d8bb4c1dadbdc88
+system_ext/lib/fm_helium.so|fd5702ab5558dbf4d79e4bf3ab0b8c446cecef88
+system_ext/lib/libfm-hci.so|88c3c494aabba98e82a6f81f61cbe7986756744a
+system_ext/lib/vendor.qti.hardware.fm@1.0.so|eba591bf09ab182d5b234c7b0821b0cbd2ee9681
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so|ab69d97d504acd0d0171d507388524145b32bf8b
+system_ext/lib64/fm_helium.so|e551c92ba49f250d8404c0a7b00eb6f3e0698195
+system_ext/lib64/libfm-hci.so|7d3d509952a47748ceed1c6115348ae26c041fb6
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|4ba97fa02808eb1d125c9b7ccd9d0a92bb49ab70
+vendor/bin/fm_qsoc_patches|2ed7d570a78b96d2c600e5fdcaf8a03af0d8b93e
+vendor/etc/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
+vendor/etc/init/init.qti.fm.rc|4f5459058debbea76991e69f8522126f6655fd3b
 
 # GPS
 vendor/bin/garden_app
