@@ -1035,25 +1035,25 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 vendor/bin/rmt_storage
 vendor/etc/init/vendor.qti.rmt_storage.rc
 
-# SCVE
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
-vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/libscveCommon.so
-vendor/lib/libscveCommon_stub.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectSegmentation_stub.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
-vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
-vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
+# SCVE - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
+vendor/lib/libscveCommon_stub.so|4021305188cfd37dc4259e0468721799a07fd678
+vendor/lib/libscveObjectSegmentation.so|b60b43377262ef6cc7882ff5cc49d35e4c516670
+vendor/lib/libscveObjectSegmentation_stub.so|d1f7b1c9cd9c527ed56a6328c71ad263390ab431
+vendor/lib/libscveObjectTracker.so|26318c862d3d56596fe7208ebcc3ae1900f7d55f
+vendor/lib/libscveObjectTracker_stub.so|cafdeed8fa0d51672806038065cf4ce38d442b6b
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|44ee517f73908376a226f02a1ecd7ab22e5ae6ca
+vendor/lib/rfsa/adsp/libscveT2T_skel.so|e7b555579924337dc72badc71bdd49c13664454b
+vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|1331269fb53f9048b4d4d0627978cf8b69c7f33b
+vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so|89278a73cf8e276af770c89019dee1a356b4d4d6
+vendor/lib64/libscveCommon.so|1603e11f268390739f9d0297ab0b8e84886becab
+vendor/lib64/libscveCommon_stub.so|05f190f1accbfb203f45173b08b78ef88dcc6434
+vendor/lib64/libscveObjectSegmentation.so|1598ad3797897eb3331a545c74d937c0ae0aeddf
+vendor/lib64/libscveObjectSegmentation_stub.so|ed93b42b3e45b030ca413cb8e82283363a95dbde
+vendor/lib64/libscveObjectTracker.so|0cf7d3128ae0019d882da5c9d8d9186d549177d1
+vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf58
+vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|e913d92b449d65ba458d961be0d1d89d354bbbce
+vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|92daa325c6a964bbd388abd8e5a1d8ed1a6b64b6
 
 # SMC Invoke - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/etc/ssg/ta_config.json|e18554b038da3737b7352d1271e5fde9c789c9df
