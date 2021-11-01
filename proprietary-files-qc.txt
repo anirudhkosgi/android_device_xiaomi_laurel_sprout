@@ -1130,10 +1130,11 @@ vendor/lib/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Thermal
-vendor/bin/thermal-engine
--vendor/lib64/libthermalclient.so
--vendor/lib/libthermalclient.so
+# Thermal - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/thermal-engine|c771abfcb20d5b0b4626edccfdc55c466a77d423
+vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
+-vendor/lib/libthermalclient.so|b2d69a3a3589eb0387c2f13cc10ff91072c27c9a
+-vendor/lib64/libthermalclient.so|89c57d88d9a8b7f793cf1fb57b776bba30779188
 
 # Time Services - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/time_daemon|8e1a7f986859684240f226ffb2d94ea744966a2a
