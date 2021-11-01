@@ -1004,32 +1004,31 @@ vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
-# QSEECOM
-vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
-vendor/bin/qseecomd
-vendor/bin/qseecom_sample_client
-vendor/etc/init/qseecomd.rc
-vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
-vendor/etc/gpfspath_oem_config.xml
-vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/librpmb.so
-vendor/lib/libssd.so
-vendor/lib/vendor.qti.hardware.qseecom@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libops.so
-vendor/lib64/librpmb.so
-vendor/lib64/libssd.so
-vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
+# QSEECOM - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|d3d6ed383483747f8bec574adcac1c24ef1ac3a4
+vendor/bin/qseecom_sample_client|e06e123c749f9251fd33af71d6eafa23c6379942
+vendor/bin/qseecomd|e4cdbdc6c7eec4269a7d714852bfb406c286358a
+vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
+vendor/etc/init/qseecomd.rc|0ebfb7c5d1d2459be4fdac951a182dc486f3bda7
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
+vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|7fe94a272c16e9bd96138232c16a652d2d5eae17
+vendor/lib/libGPreqcancel.so|6e3a39eb893b3afd2d4be75d24c4e5635bd7681f
+vendor/lib/libGPreqcancel_svc.so|98f768bc640ba4a925a118f2d39ddb35cdb5b12f
+vendor/lib/libQSEEComAPI.so|01ad61298f8b1780a00d822aae83cf41e3a66bc7
+vendor/lib/libdrmfs.so|a9dc13f371b1e3aa2d61b171f00c836207ab1674
+vendor/lib/libdrmtime.so|24af1957bcbd9db32fc0aeca9f4e870cf960c269
+vendor/lib/librpmb.so|5f996427a1ece1dfee8c6bc2312243b25ccae51b
+vendor/lib/libssd.so|afb04338a5a3a3ebcc9ea511a9b4b9e72b47d72f
+vendor/lib/vendor.qti.hardware.qseecom@1.0.so|11517c93d45920f8e2f67e3696574b6099711142
+vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|9186c166cf0dcfe021479198f01e65dd2dcd9df1
+vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
+vendor/lib64/libGPreqcancel_svc.so|ad933d6f9d24b0808725c33995f6e44688274974
+vendor/lib64/libQSEEComAPI.so|2a04bdcffe1569644fb25c3b05e856887b172cc3
+vendor/lib64/libdrmfs.so|2f228dee3dee2c0c1071e63d8080acf9f4d8d668
+vendor/lib64/libdrmtime.so|064bbba75c82d0a3426624e5a2792f73572818f6
+vendor/lib64/librpmb.so|f191e46026c9495207b16ab4d2bad9aa88a1dcd0
+vendor/lib64/libssd.so|ad3ccaeab10635594f64602a69265a1d02a9be8f
+vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|a4a1d0cb3aefad65f6566f6bc31dd70fbb2e3875
 
 # RemoteFS - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/rmt_storage|ab3663bd440855055e83d9ed8d56bfd729a5031f
