@@ -1031,9 +1031,9 @@ vendor/lib64/librpmb.so
 vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
-# RemoteFS
-vendor/bin/rmt_storage
-vendor/etc/init/vendor.qti.rmt_storage.rc
+# RemoteFS - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/rmt_storage|ab3663bd440855055e83d9ed8d56bfd729a5031f
+vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 
 # SCVE - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
