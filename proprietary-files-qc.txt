@@ -818,11 +818,11 @@ vendor/lib64/libskewknob.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 
-# Peripheral Manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib/libperipheral_client.so
-vendor/lib64/libperipheral_client.so
+# Peripheral Manager - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/pm-proxy|6cfaaf498d9360af9d7c9e4675a1dc209454fe24
+vendor/bin/pm-service|4a50fd16c62ba27643eabb89d79c022d667bd8b2
+vendor/lib/libperipheral_client.so|cb130e759ee4b6160cfafa1c35de93aa6522ef8d
+vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
 # QMI
 system_ext/etc/permissions/qti_libpermissions.xml
