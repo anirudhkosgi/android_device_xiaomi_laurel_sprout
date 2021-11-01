@@ -990,19 +990,19 @@ vendor/lib/libsoc_helper_jni.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/libsoc_helper_jni.so
 
-# QTEE
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib/libGPQTEEC_vendor.so
-vendor/lib/libGPTEE_vendor.so
-vendor/lib/libQTEEConnector_vendor.so
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib64/libGPQTEEC_vendor.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+# QTEE - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|24163b7dc37d7805a513a5c93642fbc52cf5045e
+vendor/lib/libGPQTEEC_vendor.so|3b284ceb6f3642eeb4740039e3a6bc18f35404bf
+vendor/lib/libGPTEE_vendor.so|b2bafe26d5365eae1948730194206dfc3e0ba733
+vendor/lib/libQTEEConnector_vendor.so|4652c8905d3215121036e230393701e32906e41f
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|98fbae4add3d6edc096aed3634831a50328491e5
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|b12c7889c43e733e29451b7b3f16474f87737e98
+vendor/lib64/libGPQTEEC_vendor.so|bc884615f468508bd7f7fec793414d9fde58f0d0
+vendor/lib64/libGPTEE_vendor.so|527c8393ef416a9ddca4337fb4b5a1618551de44
+vendor/lib64/libQTEEConnector_vendor.so|22c4dfe5813f6f923a30ad9470227a65a217ab4a
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|80ea41dc52820f660d2c21b94aa57a171278fbff
 
 # QSEECOM - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|d3d6ed383483747f8bec574adcac1c24ef1ac3a4
