@@ -1121,14 +1121,14 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc_default_listener.so
 
-# SOTER
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
-vendor/bin/vendor.qti.hardware.soter@1.0-provision
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
-vendor/lib/vendor.qti.hardware.soter@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.soter@1.0.so
+# SOTER - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
+vendor/bin/vendor.qti.hardware.soter@1.0-provision|7ca733061bdd4aa5d4c5928384ae641c5671e1ce
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
+vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so|f0314fae10288ad5be9bdfbb70b5860c26b9b754
+vendor/lib/vendor.qti.hardware.soter@1.0.so|b9f96c014d6cc0d37df7b1c783d66438f9bb279e
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|dfa1dcf96c5039ef024a1b9f69d6522980040aa0
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|a65e2f4ea1d9b7b9e4ce79f706dd705766753176
 
 # Thermal - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/thermal-engine|c771abfcb20d5b0b4626edccfdc55c466a77d423
