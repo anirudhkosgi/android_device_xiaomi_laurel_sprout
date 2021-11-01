@@ -982,13 +982,13 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/qcril.db
 
-# QCV
-vendor/bin/init.qti.qcv.sh
-vendor/etc/init/init.qti.qcv.rc
-vendor/lib/libsoc_helper.so
-vendor/lib/libsoc_helper_jni.so
-vendor/lib64/libsoc_helper.so
-vendor/lib64/libsoc_helper_jni.so
+# QCV - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/init.qti.qcv.sh|0c0d80f0db99cec9259163c4d65a9c22ea5f69bf
+vendor/etc/init/init.qti.qcv.rc|c0c97f5674e24307440da1e166dc405ac1694d55
+vendor/lib/libsoc_helper.so|d1eba05bf1d235a7615e8d869afd5523ac78a1c4
+vendor/lib/libsoc_helper_jni.so|33bcdab1220cf460d5e2b10b8793ab21ff14fa94
+vendor/lib64/libsoc_helper.so|1b68d93bc41b403bfcca28828f3b9dfd2b794fef
+vendor/lib64/libsoc_helper_jni.so|593bb46e8bfaacb82a67231c64e82a7fa6d5c608
 
 # QTEE - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
