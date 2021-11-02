@@ -209,6 +209,16 @@ system/lib64/com.dsi.ant@1.0.so|04feb86cf96fe0c07f47a266e7015f78dd71bcd1
 vendor/lib/com.dsi.ant@1.0.so|fad74667fc2db19ea1afa03e8fdfea17f63b8ca9
 vendor/lib64/com.dsi.ant@1.0.so|0ddb2557a05c1f3891c5eecdb9cf90c71fd8ab43
 
+# Certificate Authority - LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
+vendor/lib/libcacertclient.so|cf5f80245d2b857f6992573b61a2a87f8596319d
+vendor/lib/libjnihelper.so|532679716454fef5960e1eb14300a62a18ee6a5c
+vendor/lib/vendor.qti.hardware.cacert@1.0.so|a3d244d49686ee087330dd3e4ec8fcec1b853b07
+vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
+vendor/lib64/libjnihelper.so|d3687f06782adc074a38b9ff3c1aacd57ec7a6e7
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1633c31212d1ea9338b79ebfc2476f83424f36ee
+-vendor/app/CACertService/CACertService.apk|d8054a66cf83d0b12fc2fa7c5dfeb3c1aa9b129c
+
 # CNE - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/cnd|c0b9d490694edd6a10d2a56690c7606b2743c126
 vendor/etc/cne/mwqem.conf|c51d3893b86ab89fae218f3a92c4f9c18ea401a8
@@ -242,7 +252,6 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml|f76c894f3c6d5b6ed35113a088dc3174c9
 vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml|14d136e7fcc682311757d3edc0b9d3eaeba11815
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|c63c37d067e3009735fbc54d4603d43d7d6623e1
 vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
-vendor/lib/libcacertclient.so|cf5f80245d2b857f6992573b61a2a87f8596319d
 vendor/lib/libcne.so|a8913420256735d8eb5e6db7df68d1fcc95a7721
 vendor/lib/libcneapiclient.so|293670446df615dad5dd746dafb03e2620719580
 vendor/lib/libcneoplookup.so|f285b53f3e79af6b1ff764ed5dd2e1dc1cb1a625
@@ -265,7 +274,6 @@ vendor/lib/vendor.qti.hardware.data.qmi@1.0.so|950c14ba979b8194cd2d3c1e451e0b2f8
 vendor/lib/vendor.qti.hardware.mwqemadapter@1.0.so|924178c0b88530e0657a2410a70def9dc1002d59
 vendor/lib/vendor.qti.hardware.slmadapter@1.0.so|9655cf02f23bd07ed5500b05b3b0b7d56b09da52
 vendor/lib/vendor.qti.latency@2.0.so|20e0f6643b353e4f60d9f3172914adbe842feb3d
-vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
 vendor/lib64/libcne.so|958786278816b5c8d7a73bb7abfe12d78258edff
 vendor/lib64/libcneapiclient.so|b6479678e5b0e8b46d8df5eb8bd610aa17be00d0
 vendor/lib64/libcneoplookup.so|709e92b3399f9e7c73a7c726d71d30d42e8f65f7
