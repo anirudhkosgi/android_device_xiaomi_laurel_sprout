@@ -19,7 +19,10 @@ cc_binary {
     vintf_fragments: ["android.hardware.biometrics.fingerprint@2.3-service.laurel_sprout.xml"],
     init_rc: ["android.hardware.biometrics.fingerprint@2.3-service.laurel_sprout.rc"],
     defaults: ["hidl_defaults"],
-    srcs: ["service.cpp", "BiometricsFingerprint.cpp"],
+    srcs: [
+        "service.cpp",
+        "BiometricsFingerprint.cpp",
+    ],
     shared_libs: [
         "libbase",
         "libhidlbase",
@@ -30,5 +33,4 @@ cc_binary {
         "android.hardware.biometrics.fingerprint@2.3",
         "vendor.xiaomi.hardware.fingerprintextension@1.0",
     ],
-    proprietary: true,
 }
