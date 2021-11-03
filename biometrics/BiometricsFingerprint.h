@@ -68,7 +68,7 @@ private:
 };
 
 }  // namespace implementation
-}  // namespace V2_2
+}  // namespace V2_3
 }  // namespace fingerprint
 }  // namespace biometrics
 }  // namespace hardware
