@@ -779,7 +779,6 @@ vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql|4701219a79190
 -system_ext/app/DynamicDDSService/DynamicDDSService.apk|aac997aa73aaa624da2ca5e73a311f7733f059c0
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|2c92662fc33ceb1adaa8855eb62c8db7d5006a91
 -system_ext/app/atfwd/atfwd.apk|43024a5791d9ddd8adc3734500a0868044ab3a41
--system_ext/app/datastatusnotification/datastatusnotification.apk|21e2990197b02c0daa76628dd3657ff2e3b1245f
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|aae290081b3c210738fb00193f5a690463fe42f8
 
 # Keymaster - LA.UM.9.11.r1-04500-NICOBAR.0
