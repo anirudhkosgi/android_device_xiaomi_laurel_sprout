@@ -305,6 +305,8 @@ $(foreach target, $(shell cat $(LOCAL_PATH)/configs/vndk/vndk.txt), $(eval PRODU
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
 
+PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
