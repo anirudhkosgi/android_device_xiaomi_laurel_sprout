@@ -373,6 +373,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.laurel_sprout-libperfmgr \
     android.hardware.power.stats-service.laurel_sprout \
+    android.hardware.power-service-qti \
     vendor.qti.hardware.perf@2.2.vendor
 
 PRODUCT_COPY_FILES += \
