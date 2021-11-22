@@ -2833,3 +2833,6 @@ vendor/firmware/sign_xiaomi/a610_zap.b01
 vendor/firmware/sign_xiaomi/a610_zap.b02
 vendor/firmware/sign_xiaomi/a610_zap.elf
 vendor/firmware/sign_xiaomi/a610_zap.mdt
+
+# Wlan
+vendor/firmware/wlan/qca_cld/wlan_mac.bin
