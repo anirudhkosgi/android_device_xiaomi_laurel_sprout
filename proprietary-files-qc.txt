@@ -514,14 +514,15 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar|0492cd3db2e25
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|91c49e2f1f95fe76952eb55d7a936a997685b964
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|89b2c917c0c35489f10306f1627b2cf7cf6b59cf
 
-# Radio - EMBMS - LA.UM.9.11.r1-04500-NICOBAR.0
--system_ext/app/embms/embms.apk|010db3d97f4faad191f1a53415d7cf0a94dabcd1
+# Radio - EMBMS - LA.UM.9.11.r1-04700-NICOBAR.0
 system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
-system_ext/framework/embmslibrary.jar|b5fe26c1cea597af8a1751332d187f2f574816c1
-system_ext/lib64/libembmsmmosal.so|419b6ab7b400e927df163cf2dc1cb341a42b9150
-system_ext/lib64/libembmsmmparser_lite.so|a8d64ba654940237e17c1473c37bfa2266b6a77b
-system_ext/lib64/libembmssqlite.so|e106b2d4a07ee75a273782191186b19bc25587c7
-system_ext/lib64/libembmstinyxml.so|54af1f8fbcd85534a5c059d6a2f6a7065bc1103a
+system_ext/framework/embmslibrary.jar|841d246e003d7d0baf27ef5937366cc34636bfc1
+system_ext/lib64/libembmsmmosal.so|cc4a169473ec37de2696c7700481e38b4f46cdb4
+system_ext/lib64/libembmsmmparser_lite.so|eaa57e7c63d25b78e68132459fdfd598e7b73434
+system_ext/lib64/libembmssqlite.so|5d5bf58fdebe26c30011077ebad1986620019b66
+system_ext/lib64/libembmstinyxml.so|08eee57d42821158a04f37f41f6ab956993e0de9
+-system_ext/app/embms/embms.apk|d8a3e65622b90a279ad3ec5bdc3150f961eba2cc
+
 
 # Radio - IMS - LA.UM.9.11.r1-04500-NICOBAR.0
 system_ext/lib64/lib-imsvideocodec.so|79ac6b3cd5835d54e20219e71c91a1205e340f95
