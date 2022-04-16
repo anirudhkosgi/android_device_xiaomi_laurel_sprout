@@ -293,9 +293,9 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/gps/etc/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Healthd
-PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl:64 \
-    android.hardware.health@2.1-service
+#PRODUCT_PACKAGES += \
+#    android.hardware.health@2.1-impl:64 \
+#    android.hardware.health@2.1-service
 
 # Hotword Permissions
 PRODUCT_COPY_FILES += \
