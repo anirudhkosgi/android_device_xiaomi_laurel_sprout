@@ -54,7 +54,7 @@ FORCE_OTA := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
 EXTRA_FOD_ANIMATIONS := true
-WITH_GAPPS=true
+WITH_GMS=true
 TARGET_GAPPS_ARCH := arm64
 
 # Use gestures by default
