@@ -24,7 +24,6 @@
 
 DEVICE_PATH := device/xiaomi/laurel_sprout
 
-BUILD_BROKEN_DUP_RULES := true
 
 # A/B
 AB_OTA_UPDATER := true
@@ -222,7 +221,12 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.laurel_sp
 # Inherit the proprietary files
 -include vendor/xiaomi/laurel_sprout/BoardConfigVendor.mk
 
+# Broken Build
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 RELAX_USES_LIBRARY_CHECK := true
+BUILD_BROKEN_DUP_SYSPROP := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
