@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_laurel_sprout.mk
+    $(LOCAL_DIR)/p404_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_laurel_sprout-user \
-    bliss_laurel_sprout-userdebug \
-    bliss_laurel_sprout-eng
+    p404_laurel_sprout-user \
+    p404_laurel_sprout-userdebug \
+    p404_laurel_sprout-eng
