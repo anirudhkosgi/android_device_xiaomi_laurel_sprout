@@ -927,6 +927,14 @@ vendor/lib64/libskewknob.so|d790040533d0b6d26073e9d3fc6527233839f0b9
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|dd98ed98c2e256610d29ff87125864f8d7fedbd8
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|cc384159b598d81bd778beaaac9ff95508f08842
 
+# Perf QTI
+vendor/lib/vendor.qti.hardware.perf@2.0.so
+vendor/lib/vendor.qti.hardware.perf@2.1.so
+vendor/lib/vendor.qti.hardware.perf@2.2.so
+vendor/lib64/vendor.qti.hardware.perf@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.1.so
+vendor/lib64/vendor.qti.hardware.perf@2.2.so
+
 # Peripheral Manager - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/pm-proxy|6cfaaf498d9360af9d7c9e4675a1dc209454fe24
 vendor/bin/pm-service|4a50fd16c62ba27643eabb89d79c022d667bd8b2
