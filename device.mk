@@ -530,3 +530,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
+# Servicetracker
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.servicetracker@1.2-service \
+    vendor.qti.hardware.servicetracker@1.2.vendor
