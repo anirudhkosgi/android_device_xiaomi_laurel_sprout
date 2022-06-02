@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_laurel_sprout.mk
+    $(LOCAL_DIR)/aospa_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_laurel_sprout-user \
-    syberia_laurel_sprout-userdebug \
-    syberia_laurel_sprout-eng
+    aospa_laurel_sprout-user \
+    aospa_laurel_sprout-userdebug \
+    aospa_laurel_sprout-eng
