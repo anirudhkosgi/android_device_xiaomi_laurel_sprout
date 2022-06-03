@@ -395,7 +395,6 @@ TARGET_COMMON_QTI_COMPONENTS += \
     bt \
     display \
     gps \
-    init \
     media-legacy \
     overlay \
     perf \
