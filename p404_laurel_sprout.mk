@@ -43,12 +43,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys
 
-PRODUCT_PACKAGES += \
-    RemovePackages \
-    GalleryGo2
-#    FirefoxLite \
-#    GCamGo
-
 #props
 WITH_GAPPS := true
 TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
