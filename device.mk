@@ -199,10 +199,6 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     Snap
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.camera.expose.aux=1 \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.xiaomi.cameratools,com.factory.mmigroup
-
 # Consumerir
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
