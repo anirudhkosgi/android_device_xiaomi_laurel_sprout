@@ -31,6 +31,10 @@
 /dev/lirc0                                      u:object_r:spidev_device:s0
 /dev/spidev[0-9]\.1                             u:object_r:spidev_device:s0
 
+# Kcal
+/sys/devices/platform/kcal_ctrl.0(/.*)?                                                            u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?                                                          u:object_r:kcal_dev:s0
+
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_trinket                     u:object_r:hal_light_default_exec:s0
 

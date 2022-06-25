@@ -2739,6 +2739,9 @@ vendor/firmware/sign_xiaomi/a610_zap.b02|a29356777d8a39fde907ee051a8a2fd1eea28c2
 vendor/firmware/sign_xiaomi/a610_zap.elf|fc84f3d788380ee72ccca6d0c1e48cb3654b8669
 vendor/firmware/sign_xiaomi/a610_zap.mdt|e93a4a71ff2052f0a9756ded102b6777372f57b9
 
+# Audio FX modules - from ginkgo MIUI V12.0.1.0.RCOCNXM
+vendor/lib/soundfx/libmisoundfx.so|b96beb7c9aaded46a15bdbe8079b84d2beec9911
+
 # Firmware (Camera)
 vendor/firmware/cpp_firmware_v1_10_0.fw|a3c0fc706eb3f23b99852fe8c52c26f63999f70c
 vendor/firmware/cpp_firmware_v1_12_0.fw|c7939d46f9875054c5b30c3280862e7d9df3dcf9
@@ -2771,6 +2774,17 @@ vendor/firmware/gtx8_limits.csv|f3561bfb8371b93a676871815823c489d99c46dc
 # Firmware (WLAN)
 vendor/firmware/wigig/wigig.ini|1ec12833a14cab778168c24c283e237cadbd1781
 vendor/firmware/wlan/qca_cld/wlan_mac.bin|fb562b09039bb7c0893619c2f5ce524a2ef64cc4
+
+# Dirac - from jasmine V11.0.23.0.QDIMIXM
+vendor/etc/diracmobile.config|88fa19095df9e256f0af510df266f749bf60e258
+vendor/etc/diracvdd.bin|f9b07ace60490649c44411504909c7bf8bc73d59
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+
+# Display
+vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
 
 # Health HAL
 system/lib64/android.hardware.health@2.1.so|35e2b627fa56d95a0824a36d4140e3c6bf1b23c0
