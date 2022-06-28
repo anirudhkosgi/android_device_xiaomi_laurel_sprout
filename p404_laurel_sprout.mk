@@ -19,8 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit from the AOSPA configuration.
-$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
+# Inherit some common 404 stuff
+$(call inherit-product, vendor/404/configs/common.mk)
+
+# Gapps
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 
 # Inherit from laurel_sprout device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,7 +31,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := aospa_laurel_sprout
+PRODUCT_NAME := p404_laurel_sprout
 PRODUCT_MODEL := Mi A3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -45,15 +48,19 @@ PRODUCT_PACKAGES += \
     GalleryGo2
 #    FirefoxLite \
 #    GCamGo
-    
-# Aospa
-TARGET_BOOT_ANIMATION_RES := 1080
-FORCE_OTA := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_USES_BLUR := true
-EXTRA_UDFPS_ANIMATIONS := true
+
+#props
+WITH_GAPPS := true
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
+TARGET_HAS_FOD := true
+TARGET_SHIP_GCAM_GO := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Use gestures by default
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
+# Shinka
+P404_BUILDTYPE := SHINKA
