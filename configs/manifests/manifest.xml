@@ -249,7 +249,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <fqname>@2.0::IFactory/default</fqname>
         <fqname>@2.1::IFactory/default</fqname>
         <fqname>@2.2::IFactory/default</fqname>
-        <fqname>@2.3::IFactory/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.data.connection</name>
