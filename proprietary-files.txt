@@ -2677,9 +2677,6 @@ vendor/lib64/vendor.qti.hardware.camera.device@3.2.so|cd89b991787cc713370a5b3ae9
 # Consumerir
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.trinket.so|22cfe98a0049a31f6c73e4fe4c1fac4bd40313ba
 
-# Charger - miui
-bin/charger:bin/chargeonlymode|8aff51ddeb3803961f5b2a48b28606c59f209918
-
 # Display
 vendor/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
 vendor/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
