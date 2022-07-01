@@ -34,6 +34,8 @@
     <string name="ambient_display">Doze de xiaomi</string>
     <string name="advanced_doze_summary">Pantalla ambiente</string>
 
+    <!-- FP Actions -->
+
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Sound Enhancer</string>
     <string name="dirac_summary">Optimizar la calidad del audio</string>

@@ -162,6 +162,7 @@
                 android:targetClass="org.lineageos.settings.device.thermal.ThermalActivity"
                 android:targetPackage="org.lineageos.settings.device" />
         </Preference>
+
     </PreferenceCategory>
 
 </PreferenceScreen>

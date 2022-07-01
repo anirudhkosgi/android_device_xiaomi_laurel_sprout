@@ -20,8 +20,6 @@
     <string name="device_kcal_title">Displaykalibierung</string>
     <string name="vibration_strength_title">Stärke</string>
 
-    <!-- Haptic -->
-    <string name="vibration_title">Haptisches Feedback</string>
 
 <!-- Dirac settings -->
     <string name="dirac_title">Mi Klangverbesserung</string>

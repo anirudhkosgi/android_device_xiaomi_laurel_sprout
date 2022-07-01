@@ -29,6 +29,10 @@
     <string name="vibration_title">触觉反馈</string>
     <string name="vibration_strength_title">强度</string>
 
+    <!-- FP Actions -->
+
+    <!-- Values for FP Actions -->
+
     <string name="audio_title">音频</string>
 
     <!-- Dirac settings -->
