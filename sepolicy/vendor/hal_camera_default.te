@@ -24,3 +24,15 @@ allow hal_camera_default vendor_mpctl_prop:file { open read };
 allow hal_camera_default camera_persist_file:dir { r_dir_perms };
 allow hal_camera_default camera_persist_file:file { r_file_perms };
 allow hal_camera_default bootanim_system_prop:file { read };
+
+# Allow hal_camera_default to read files in kgsl sysfs
+r_dir_file(hal_camera_default, vendor_sysfs_kgsl)
+
+# Allow hal_camera_default to read in mnt/vendor/persist/camera
+r_dir_file(hal_camera_default, camera_persist_file)
+r_dir_file(hal_camera_default, mnt_vendor_file)
+
+dontaudit hal_camera_default default_prop:file { getattr map open read };
+
+allow hal_camera_default public_adsprpcd_file:file r_file_perms;
+allow hal_camera_default vendor_xdsp_device:chr_file r_file_perms;
