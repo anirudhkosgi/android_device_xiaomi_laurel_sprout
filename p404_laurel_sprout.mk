@@ -25,6 +25,9 @@ $(call inherit-product, vendor/404/configs/common.mk)
 # Gapps
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 
+# Dolby
+$(call inherit-product, vendor/DolbyAtmos/config.mk)
+
 # Inherit from laurel_sprout device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
