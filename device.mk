@@ -491,3 +491,11 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     GalleryGo2
+
+# Sensors
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-service.multihal \
+    sensors.xiaomi
