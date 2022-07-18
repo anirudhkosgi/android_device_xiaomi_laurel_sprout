@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_laurel_sprout.mk
+    $(LOCAL_DIR)/lmodroid_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_laurel_sprout-user \
-    xdroid_laurel_sprout-userdebug \
-    xdroid_laurel_sprout-eng
+    lmodroid_laurel_sprout-user \
+    lmodroid_laurel_sprout-userdebug \
+    lmodroid_laurel_sprout-eng
