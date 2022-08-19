@@ -444,6 +444,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
+# Shim
+PRODUCT_PACKAGES += \
+	libwatermark_shim
+
 # Wifi
 PRODUCT_PACKAGES += \
     LaurelWifiOverlay
