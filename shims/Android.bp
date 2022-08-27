@@ -8,7 +8,7 @@ cc_library_shared {
     name: "libwatermark_shim",
     srcs: ["libwatermark_shim/libwatermark_shim.c"],
     vendor: true,
-
+}
 cc_library_shared {
     name: "libims_shim",
     srcs: ["libims_shim/Surface.cpp"],
@@ -16,4 +16,6 @@ cc_library_shared {
         "libgui",
         "libutils",
     ],
+    compile_multilib: "64",
+    system_ext_specific: true
 }
