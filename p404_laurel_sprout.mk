@@ -57,4 +57,4 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # Shinka
-P404_BUILDTYPE := SHINKA
+P404_BUILDTYPE := TOKUI
