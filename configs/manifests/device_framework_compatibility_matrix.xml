@@ -69,7 +69,7 @@
 <hal format="hidl" optional="true">
     <name>android.hardware.wifi</name>
     <transport>hwbinder</transport>
-    <version>1.5</version>
+    <version>1.6</version>
     <interface>
         <name>IWifi</name>
         <instance>default</instance>
@@ -892,37 +892,10 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>android.hardware.media.c2</name>
-    <transport>hwbinder</transport>
+    <name>vendor.qti.qspmhal</name>
     <version>1.0</version>
     <interface>
-        <name>IComponentStore</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.qti.data.factory</name>
-    <transport>hwbinder</transport>
-    <version>2.0-3</version>
-    <interface>
-        <name>IFactory</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.qti.ims.factory</name>
-    <transport>hwbinder</transport>
-    <version>1.0-1</version>
-    <interface>
-        <name>IImsFactory</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl">
-    <name>vendor.dolby.hardware.dms</name>
-    <version>1.0</version>
-    <interface>
-        <name>IDms</name>
+        <name>IQspmhal</name>
         <instance>default</instance>
     </interface>
 </hal>
