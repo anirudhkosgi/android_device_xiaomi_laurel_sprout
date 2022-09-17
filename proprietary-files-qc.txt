@@ -496,6 +496,7 @@ vendor/lib/librcc.so
 vendor/lib/vendor.qti.ims.callcapability@1.0.so
 vendor/lib/vendor.qti.ims.callinfo@1.0.so
 vendor/lib/vendor.qti.ims.factory@1.0.so
+vendor/lib/vendor.qti.ims.factory@1.1.so
 vendor/lib/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib/vendor.qti.ims.rcsconfig@2.0.so
@@ -527,12 +528,15 @@ vendor/lib64/librcc.so
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.factory@1.0.so
+vendor/lib64/vendor.qti.ims.factory@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
+system_ext/lib/vendor.qti.ims.factory@1.1.so
+system_ext/lib64/vendor.qti.ims.factory@1.1.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
