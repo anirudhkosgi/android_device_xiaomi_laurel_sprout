@@ -1,4 +1,4 @@
-# laurel_sprout package version: V12.0.15.0.RFQMIXM, unless stated otherwise
+# laurel_sprout package version: V12.0.26.0.RFQMIXM, unless stated otherwise
 
 # Audio
 vendor/bin/audioflacapp|8ab77a8042b52a128d5d756e23afac03b0101728
