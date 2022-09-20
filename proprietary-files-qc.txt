@@ -1,4 +1,4 @@
-# laurel_sprout package version: LA.UM.9.11.r1-04500-NICOBAR.0, unless stated otherwise
+# laurel_sprout package version: V12.0.26.0.RFQMIXM, unless stated otherwise
 
 # ADSPRPC
 vendor/bin/adsprpcd
