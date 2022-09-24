@@ -280,13 +280,10 @@ PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
-    init.qcom.rc \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.sh \
-    init.recovery.qcom.rc \
-    init.target.rc \
-    ueventd.qcom.rc
+    init.target.rc
 
 # IRQ
 PRODUCT_COPY_FILES += \
@@ -333,6 +330,7 @@ TARGET_COMMON_QTI_COMPONENTS += \
     av \
     audio \
     bt \
+    init \
     overlay \
     usb \
     vibrator \
