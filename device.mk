@@ -477,12 +477,6 @@ $(call inherit-product-if-exists, vendor/xiaomi/laurel_sprout/laurel_sprout-vend
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/lahaina-yupikqrd-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/lahaina-yupikqrd-snd-card_Button_Jack.kl
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/qcom/display \
-    hardware/qcom/media
-
 PRODUCT_PACKAGES += \
     GalleryGo2
 
