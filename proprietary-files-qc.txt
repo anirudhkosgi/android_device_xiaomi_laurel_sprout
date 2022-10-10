@@ -457,6 +457,10 @@ vendor/bin/fm_qsoc_patches|2ed7d570a78b96d2c600e5fdcaf8a03af0d8b93e
 vendor/etc/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
 vendor/etc/init/init.qti.fm.rc|4f5459058debbea76991e69f8522126f6655fd3b
 
+# DRM - QSEECOMD - qssi-user 12 SKQ1.211006.001 V13.0.3.0.SJKMIXM release-keys
+vendor/lib/libspl.so|ec1ae86b1727e33c87fd8c00ebe02d8734510745
+vendor/lib64/libspl.so|e2b3e2dd28b0eee567d72de696cd1e01288ae06f
+
 # GPS - from sofiap_sprout-user-12-S0PR32.44-11-8-6de89-release-keys
 system_ext/etc/permissions/com.qti.location.sdk.xml|fac5922b978d83a00cd9ec0ddcf2c5d7ab26d492
 system_ext/etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
