@@ -4,3 +4,6 @@ vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint u:object_r:hal_f
 vendor.qti.hardware.fingerprintext::IWTFingerprint u:object_r:hal_fingerprint_hwservice_xiaomi:s0
 vendor.xiaomi.hardware.misys::IMiSys          u:object_r:hal_misys_hwservice:s0
 android.hardware.memtrack::IMemtrack          u:object_r:hal_memtrack_hwservice:s0
+
+# Dolby
+vendor.dolby.hardware.dms::IDms                                            u:object_r:hal_dms_hwservice:s0
