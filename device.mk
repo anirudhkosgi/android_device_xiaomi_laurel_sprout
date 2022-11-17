@@ -356,6 +356,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti

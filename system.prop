@@ -32,6 +32,10 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
 
+# ParanoidDoze
+ro.sensor.pickup=xiaomi.sensor.pickup
+ro.sensor.proximity=true
+
 # Radio
 DEVICE_PROVISIONED=1
 persist.radio.NO_STAPA=1
