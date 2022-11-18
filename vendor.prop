@@ -182,9 +182,7 @@ ro.vendor.perf.scroll_opt=true
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss
-vendor.usb.rmnet.func.name=gsi
 vendor.usb.rmnet.inst.name=rmnet
-vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=0
 vendor.usb.use_gadget_hal=0
 
@@ -207,6 +205,4 @@ persist.vendor.sensors.support_direct_channel=false
 # Usb
 persist.vendor.usb.config.extra=none
 vendor.usb.dpl.inst.name=dpl
-vendor.usb.rmnet.func.name=rmnet_bam
 vendor.usb.rmnet.inst.name=rmnet
-vendor.usb.rndis.func.name=rndis_bam
