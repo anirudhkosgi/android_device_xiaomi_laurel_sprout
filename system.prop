@@ -22,10 +22,6 @@ persist.vendor.overlay.izat.optin=rro
 ro.config.low_ram = false
 ro.lmk.log_stats=true
 
-# Media
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
-media.stagefright.thumbnail.prefer_hw_codecs=true
-
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
 
