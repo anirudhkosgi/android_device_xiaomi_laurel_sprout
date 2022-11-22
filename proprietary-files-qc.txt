@@ -322,27 +322,14 @@ vendor/lib64/libminksocket.so|103f45603bef0d1fbf52ccdf8458dd31cabe3945
 
 # DPM - LA.UM.9.11.r1-04500-NICOBAR.0
 framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
-system_ext/bin/dpmd|e04b54867d3c1c5e6622e41bc052529a81c82e3c
-system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
-system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
-system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
-system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
-system_ext/framework/com.qti.dpmframework.jar|96a29e28b3abffb9223daadd67459e3f5a3271df
-system_ext/framework/dpmapi.jar|2e2fbe2257a697b96a644c774136da0554430d3f
 system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|6c43ecc5fb917872c91a5e46ce826bba4b767be3
 system_ext/lib64/libdiag_system.so|c6f0c7b6b5ba1489a902f92116057641a4fb7ac7
-system_ext/lib64/libdpmctmgr.so|68cfd00ab275a298b17515c0abd059b48e1f91c2
-system_ext/lib64/libdpmfdmgr.so|c76fa9c50ba139094b66ab918676ae0a524eda13
-system_ext/lib64/libdpmframework.so|a9c419481262c5173b1eb0602a896fde638f8a22
-system_ext/lib64/libdpmtcm.so|653a713295c2445f242f2d873f47d679d027918d
-system_ext/lib64/vendor.qti.diaghal@1.0.so|d0e63f3676a43466122d3494f2c82472546c7b3f
 vendor/bin/dpmQmiMgr|3c553042d4257161adb75c0979c829b0cb050639
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|8e97eba901841227ae7029f535a747fdefd6c369
 vendor/lib/libdpmqmihal.so|843d7bd2dee10e67531deeedc8cbda480c71679f
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|a4da790ab941c68dbc3c769608b72cf82dccaf7a
 
 # Display - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/hw/vendor.display.color@1.0-service|91e9e25ec4d64c4a7d5261899ca2cdb9cf29b695
@@ -586,16 +573,9 @@ system_ext/lib64/libembmsmmosal.so|cc4a169473ec37de2696c7700481e38b4f46cdb4
 system_ext/lib64/libembmsmmparser_lite.so|eaa57e7c63d25b78e68132459fdfd598e7b73434
 system_ext/lib64/libembmssqlite.so|5d5bf58fdebe26c30011077ebad1986620019b66
 system_ext/lib64/libembmstinyxml.so|08eee57d42821158a04f37f41f6ab956993e0de9
--system_ext/app/embms/embms.apk|d8a3e65622b90a279ad3ec5bdc3150f961eba2cc
 
 
 # Radio - IMS - LA.UM.9.11.r1-04500-NICOBAR.0
-system_ext/lib64/lib-imsvideocodec.so|79ac6b3cd5835d54e20219e71c91a1205e340f95
-system_ext/lib64/lib-imsvt.so|f795cc87119b49587dbb1f3e4349fcf67b0610ed
-system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
-system_ext/lib64/lib-imsvtutils.so|594714eb04346ca3e864b022251f866f85f0393d
-system_ext/lib64/libimscamera_jni.so|140dba66979472050d044958f2aaed537d18cdc2
-system_ext/lib64/libimsmedia_jni.so|d06732d17342e445477ba508ae575263dc2096cb
 system_ext/lib64/vendor.qti.ims.callcapability@1.0.so|f54603e155283d453d1ff11595be53e9b44c4731
 system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|9b15b2971eaafc48301dd2908ebe384414f921e5
 system_ext/lib64/vendor.qti.ims.factory@1.0.so|4b09cbb8e07b67494de68d0f2ed69e82183714b3
@@ -604,7 +584,6 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so|e19e9f6fd16017ee36aba716dcdfa69
 system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so|c31ab85ee575fbeeb8571d86f40ab17e2a29102c
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|1c553a17cb5eb428a20d5766f639baf29ca04000
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|5df7c723bd39a142005928e93d5c3ea068e8f992
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|34da5e45ae4817ccff75c6b8d1d0c125ebd253ed
 vendor/bin/ims_rtp_daemon|7a37ba220953edf951d4aa4cba761289e7644bf6
 vendor/bin/imsdatadaemon|d84d92b26b0084772a0ff6d5e65abf0c90ce6ef2
 vendor/bin/imsqmidaemon|1bfd2e728aec5ab957a8bb2e4ac8bf31deb04da6
@@ -696,18 +675,12 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|d5bfb9697d2bf7d4a5bd2505ab8c38c8ba9
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|db909e4fe10379283d09b0983ba60f849f18fece
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|2ac3b639c06d085b1ce88ede7462be9a52a726f2
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
--system_ext/app/imssettings/imssettings.apk|e56256fcf5aff5100e31131d521c0000d3339d95
--system_ext/priv-app/ims/ims.apk|03a73a7132c6b50acc48c244a053eea2c864a3f9
 -vendor/app/IWlanService/IWlanService.apk|dc8accfc918d13314935f40fa0d499e495a7b02c
 
 # Radio - RIL - LA.UM.9.11.r1-04500-NICOBAR.0
 etc/permissions/privapp-permissions-qti.xml|3eda27003bad39514039190d0d7eb675ba034cb9
 etc/sysconfig/qti_whitelist.xml|c63a9be585644fbd232328aed83a165f4354cb16
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
-system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
-system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f0056403f56928b8c75a617ba582f17061f89ae
-system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
-system_ext/framework/qcrilhook.jar|f2888f922b8347417dfa86741feb8348795fce6f
 vendor/bin/ATFWD-daemon|0646e296cdc04a5fd755d6a5a8fceb2cd9fa48ad
 vendor/bin/adpl|a7ef739a68cffa6269cf215f0c21de11cd33f8fc
 vendor/bin/hw/qcrild|b593e369985cebb4235066363e77f861eb46662f
@@ -841,11 +814,6 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb489
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|a0603a5c46e8e67f78bdb42f2b246ecc6a37cecd
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql|4701219a79190995eda651e5c45e11c9b111a478
--system_ext/app/DeviceInfo/DeviceInfo.apk|f48cc6418a2657e3309a19d582c80515b7de3ee0
--system_ext/app/DynamicDDSService/DynamicDDSService.apk|aac997aa73aaa624da2ca5e73a311f7733f059c0
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|2c92662fc33ceb1adaa8855eb62c8db7d5006a91
--system_ext/app/atfwd/atfwd.apk|43024a5791d9ddd8adc3734500a0868044ab3a41
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|aae290081b3c210738fb00193f5a690463fe42f8
 
 # Keymaster - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
