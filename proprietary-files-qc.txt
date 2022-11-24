@@ -820,6 +820,10 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so|a38c2961f2c2256da36ae917561dad0c85ac
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so|b6e10f24e580e36478626fb755827010a8b018d6
 -vendor/lib64/libMpeg4SwEncoder.so|46cca30c76db78d8c5d6b99c2c7e5a00c414bc4f
 
+# Misc
+system_ext/lib/libbeluga.so|8c471c924e3da8433ffb20ec86e2539d440a502c
+system_ext/lib64/libbeluga.so|ee3c1b68bc44372cbc63d074a786ca460605fc45
+
 # MMI - LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service|f646366b50b50637785d26173663256c8861951f
 vendor/bin/mmid|70cfa9a21b0c209f128b18dea30344c2f779c88e
