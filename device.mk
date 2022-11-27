@@ -115,6 +115,13 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libvolumelistener
 
+PRODUCT_ODM_PROPERTIES += \
+    af.fast_track_multiplier=2 \
+    vendor.voice.path.for.pcm.voip=false \
+    persist.vendor.audio.fluence.voicerec=true \
+    ro.vendor.audio.sdk.fluencetype=fluence \
+    vendor.audio.feature.compr_voip.enable=true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
