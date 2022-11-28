@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.proximity.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.proximity.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml \
+    frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
     frameworks/native/data/etc/android.hardware.usb.accessory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.xml \
     frameworks/native/data/etc/android.hardware.usb.host.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2021-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
@@ -190,6 +191,39 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service \
     android.hardware.configstore@1.1-service 
+
+# Display
+PRODUCT_PACKAGES += \
+    gralloc.trinket \
+    hwcomposer.trinket \
+    memtrack.trinket \
+    libdisplayconfig \
+    libdisplayconfig.vendor \
+    libdisplayconfig.qti \
+    libtinyxml \
+    libvulkan \
+    libqdMetaData \
+    libqdMetaData.system
+
+PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0 \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    android.hardware.graphics.composer@2.4-service \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
+    android.frameworks.displayservice@1.0 \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.display.config@1.1
+
+# Display interfaces
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.display.composer@1.0.vendor \
+    vendor.qti.hardware.display.composer@2.0.vendor \
+    vendor.qti.hardware.display.mapper@1.0.vendor \
+    vendor.qti.hardware.display.mapper@1.1.vendor \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -325,7 +359,6 @@ TARGET_COMMON_QTI_COMPONENTS += \
     adreno \
     audio \
     bt \
-    display \
     init \
     overlay \
     usb \
